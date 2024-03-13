@@ -1,0 +1,43 @@
+2024-03-04 09:26:03,261 [main] INFO  com.example.demo.Application                       - Starting Application using Java 17.0.10 with PID 1932 (C:\Users\adila\Documents\JRTP-WORKSPACE\03-Logging-App1\target\classes started by adila in C:\Users\adila\Documents\JRTP-WORKSPACE\03-Logging-App1)
+2024-03-04 09:26:03,263 [main] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2024-03-04 09:26:03,834 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8088 (http)
+2024-03-04 09:26:03,840 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8088"]
+2024-03-04 09:26:03,841 [main] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-03-04 09:26:03,854 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-04 09:26:03,886 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-03-04 09:26:03,887 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 581 ms
+2024-03-04 09:26:04,122 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8088"]
+2024-03-04 09:26:04,125 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-04 09:26:04,134 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger          - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-04 09:26:04,145 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2024-03-04 09:27:21,247 [main] INFO  com.example.demo.Application                       - Starting Application using Java 17.0.10 with PID 25152 (C:\Users\adila\Documents\JRTP-WORKSPACE\03-Logging-App1\target\classes started by adila in C:\Users\adila\Documents\JRTP-WORKSPACE\03-Logging-App1)
+2024-03-04 09:27:21,249 [main] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2024-03-04 09:27:21,816 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8089 (http)
+2024-03-04 09:27:21,823 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8089"]
+2024-03-04 09:27:21,824 [main] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-03-04 09:27:21,824 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-04 09:27:21,859 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-03-04 09:27:21,859 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 570 ms
+2024-03-04 09:27:22,085 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8089"]
+2024-03-04 09:27:22,098 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8089 (http) with context path ''
+2024-03-04 09:27:22,104 [main] INFO  com.example.demo.Application                       - Started Application in 1.092 seconds (process running for 1.689)
+2024-03-04 09:29:04,663 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-04 09:29:04,663 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2024-03-04 09:29:04,663 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 0 ms
+2024-03-04 09:29:04,698 [http-nio-8089-exec-1] INFO  com.example.demo.service.MsgService                - getWelcomeMsg() started
+2024-03-04 09:29:04,698 [http-nio-8089-exec-1] INFO  com.example.demo.service.MsgService                - getWelcomeMsg() ended
